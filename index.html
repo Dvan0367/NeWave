@@ -11,6 +11,7 @@
   <meta property="og:type" content="website" />
   <title>¿Quién te dejó de seguir en Instagram? Descúbrelo GRATIS</title>
 
+  <meta name="google-adsense-account" content="ca-pub-2003625921425153">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2003625921425153" crossorigin="anonymous"></script>
 
   <style>
@@ -144,15 +145,9 @@
     .cta-sub { margin-top: 12px; font-size: .8rem; color: #555; }
     .cta-sub span { color: #3c9e3c; font-weight: 600; }
 
-    .stats-strip {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      margin-bottom: 32px;
-    }
+    .stats-strip { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 32px; }
     .stat {
-      flex: 1;
-      min-width: 120px;
+      flex: 1; min-width: 120px;
       background: var(--surface);
       border: 1px solid #2a2a2a;
       border-radius: var(--radius);
@@ -160,8 +155,7 @@
       text-align: center;
     }
     .stat-num {
-      font-size: 1.6rem;
-      font-weight: 800;
+      font-size: 1.6rem; font-weight: 800;
       background: var(--grad);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -180,14 +174,11 @@
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 16px;
-      margin-bottom: 32px;
+      gap: 16px; margin-bottom: 32px;
     }
     .feat-card {
-      background: var(--surface);
-      border: 1px solid #2a2a2a;
-      border-radius: var(--radius);
-      padding: 20px 16px;
+      background: var(--surface); border: 1px solid #2a2a2a;
+      border-radius: var(--radius); padding: 20px 16px;
       transition: border-color .2s;
     }
     .feat-card:hover { border-color: var(--accent); }
@@ -197,94 +188,61 @@
 
     .steps { display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px; }
     .step {
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-      background: var(--surface);
-      border: 1px solid #2a2a2a;
-      border-radius: var(--radius);
-      padding: 18px 20px;
+      display: flex; gap: 16px; align-items: flex-start;
+      background: var(--surface); border: 1px solid #2a2a2a;
+      border-radius: var(--radius); padding: 18px 20px;
     }
     .step-num {
-      min-width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: var(--grad);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: .9rem;
+      min-width: 36px; height: 36px; border-radius: 50%;
+      background: var(--grad); display: flex;
+      align-items: center; justify-content: center;
+      font-weight: 800; font-size: .9rem;
     }
     .step h3 { font-size: .95rem; font-weight: 700; margin-bottom: 4px; }
     .step p { font-size: .82rem; color: var(--muted); }
 
     .faq { margin-bottom: 32px; }
     details {
-      background: var(--surface);
-      border: 1px solid #2a2a2a;
-      border-radius: var(--radius);
-      margin-bottom: 10px;
-      overflow: hidden;
+      background: var(--surface); border: 1px solid #2a2a2a;
+      border-radius: var(--radius); margin-bottom: 10px; overflow: hidden;
     }
     summary {
-      padding: 16px 20px;
-      font-weight: 600;
-      font-size: .92rem;
-      cursor: pointer;
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      padding: 16px 20px; font-weight: 600; font-size: .92rem;
+      cursor: pointer; list-style: none;
+      display: flex; justify-content: space-between; align-items: center;
     }
     summary::after { content: '+'; font-size: 1.3rem; color: var(--accent); }
     details[open] summary::after { content: '\2212'; }
     details p { padding: 0 20px 16px; font-size: .85rem; color: var(--muted); }
 
     .final-cta {
-      background: var(--surface);
-      border: 1px solid #2a2a2a;
-      border-radius: var(--radius);
-      padding: 36px 24px;
-      text-align: center;
-      margin-bottom: 32px;
+      background: var(--surface); border: 1px solid #2a2a2a;
+      border-radius: var(--radius); padding: 36px 24px;
+      text-align: center; margin-bottom: 32px;
     }
     .final-cta h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: 10px; }
     .final-cta p { color: var(--muted); font-size: .92rem; margin-bottom: 22px; }
 
     .sidebar { display: flex; flex-direction: column; gap: 20px; }
     .sidebar-tip {
-      background: var(--surface);
-      border: 1px solid #2a2a2a;
-      border-radius: var(--radius);
-      padding: 18px;
+      background: var(--surface); border: 1px solid #2a2a2a;
+      border-radius: var(--radius); padding: 18px;
     }
     .sidebar-tip h3 { font-size: .9rem; font-weight: 700; margin-bottom: 10px; color: var(--accent); }
     .sidebar-tip ul {
-      padding-left: 18px;
-      font-size: .82rem;
-      color: var(--muted);
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
+      padding-left: 18px; font-size: .82rem; color: var(--muted);
+      display: flex; flex-direction: column; gap: 6px;
     }
 
     .ad-block { margin: 24px 0; text-align: center; }
 
     footer {
-      background: var(--surface);
-      border-top: 1px solid #222;
-      padding: 24px 16px;
-      text-align: center;
+      background: var(--surface); border-top: 1px solid #222;
+      padding: 24px 16px; text-align: center;
     }
     .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      font-size: .8rem;
-      color: var(--muted);
-      margin-bottom: 10px;
+      display: flex; justify-content: center; gap: 20px;
+      flex-wrap: wrap; font-size: .8rem; color: var(--muted); margin-bottom: 10px;
     }
     .footer-copy { font-size: .75rem; color: #444; }
   </style>
@@ -307,18 +265,12 @@
         <div class="hero-badge">100% Gratis · Sin Descarga · Sin Bloqueos</div>
         <h1>¿Quién te dejó de<br/><span>seguir en Instagram?</span></h1>
         <p>Descúbrelo en segundos con la herramienta más simple y segura: funciona directo en tu navegador, sin apps, sin permisos raros.</p>
-        <a class="cta-btn" href="https://davidarroyo1234.github.io/InstagramUnfollowers/" target="_blank" rel="noopener">
-          Ver mis Unfollowers gratis →
-        </a>
+        <a class="cta-btn" href="https://davidarroyo1234.github.io/InstagramUnfollowers/" target="_blank" rel="noopener">Ver mis Unfollowers gratis →</a>
         <p class="cta-sub"><span>✓ Gratis</span> &nbsp;·&nbsp; <span>✓ Seguro</span> &nbsp;·&nbsp; <span>✓ Sin instalar nada</span></p>
       </section>
 
       <div class="ad-block">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2003625921425153"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2003625921425153" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
@@ -340,11 +292,7 @@
       </div>
 
       <div class="ad-block">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2003625921425153"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2003625921425153" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
@@ -356,11 +304,7 @@
       </div>
 
       <div class="ad-block">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2003625921425153"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2003625921425153" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
@@ -377,24 +321,16 @@
       <div class="final-cta">
         <h2>¿Listo para descubrirlo?</h2>
         <p>Miles de personas ya saben quién les deja de seguir. Únete gratis, sin registros y sin instalar nada.</p>
-        <a class="cta-btn" href="https://davidarroyo1234.github.io/InstagramUnfollowers/" target="_blank" rel="noopener">
-          Comprobar mis Unfollowers →
-        </a>
+        <a class="cta-btn" href="https://davidarroyo1234.github.io/InstagramUnfollowers/" target="_blank" rel="noopener">Comprobar mis Unfollowers →</a>
       </div>
 
     </main>
 
     <aside class="sidebar">
-
       <div class="ad-block">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2003625921425153"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2003625921425153" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
-
       <div class="sidebar-tip">
         <h3>💡 Consejo rápido</h3>
         <ul>
@@ -404,26 +340,16 @@
           <li>No cierres la pestaña mientras carga</li>
         </ul>
       </div>
-
       <div class="ad-block">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2003625921425153"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2003625921425153" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
-
     </aside>
   </div>
 
   <footer>
     <div class="ad-block">
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-2003625921425153"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2003625921425153" data-ad-format="auto" data-full-width-responsive="true"></ins>
       <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
     <div class="footer-links">
