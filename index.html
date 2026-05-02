@@ -11,11 +11,7 @@
   <meta property="og:type" content="website" />
   <title>¿Quién te dejó de seguir en Instagram? Descúbrelo GRATIS</title>
 
-  <!-- ═══════════════════════════════════════════════
-       GOOGLE ADSENSE — reemplaza ca-pub-XXXXXXXX
-       con tu Publisher ID real antes de publicar
-  ════════════════════════════════════════════════ -->
-  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2003625921425153" crossorigin="anonymous"></script>
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -44,44 +40,6 @@
 
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-
-    .ad-unit {
-      background: var(--surface2);
-      border: 1px dashed #333;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--muted);
-      font-size: 11px;
-      letter-spacing: .5px;
-      text-transform: uppercase;
-      position: relative;
-      overflow: hidden;
-    }
-    .ad-unit::before {
-      content: 'Publicidad';
-      position: absolute;
-      top: 4px;
-      left: 8px;
-      font-size: 9px;
-      color: #444;
-      letter-spacing: 1px;
-    }
-
-    #ad-top {
-      width: 100%;
-      max-width: 728px;
-      height: 90px;
-      margin: 0 auto;
-    }
-    .top-bar {
-      background: #111;
-      border-bottom: 1px solid #222;
-      padding: 8px 16px;
-      display: flex;
-      justify-content: center;
-    }
 
     nav {
       background: var(--surface);
@@ -127,6 +85,7 @@
       border: 1px solid #2a2a2a;
       position: relative;
       overflow: hidden;
+      margin-bottom: 28px;
     }
     .hero::before {
       content: '';
@@ -182,31 +141,42 @@
       box-shadow: 0 8px 40px rgba(225,48,108,.5);
       text-decoration: none;
     }
-    .cta-sub {
-      margin-top: 12px;
-      font-size: .8rem;
-      color: #555;
-    }
+    .cta-sub { margin-top: 12px; font-size: .8rem; color: #555; }
     .cta-sub span { color: #3c9e3c; font-weight: 600; }
 
-    #ad-in-content-1 {
-      width: 100%;
-      max-width: 728px;
-      height: 90px;
-      margin: 24px auto;
+    .stats-strip {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
     }
+    .stat {
+      flex: 1;
+      min-width: 120px;
+      background: var(--surface);
+      border: 1px solid #2a2a2a;
+      border-radius: var(--radius);
+      padding: 18px 14px;
+      text-align: center;
+    }
+    .stat-num {
+      font-size: 1.6rem;
+      font-weight: 800;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stat-label { font-size: .75rem; color: var(--muted); margin-top: 4px; }
 
-    .section-title {
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
+    .section-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 20px; }
     .section-title span {
       background: var(--grad);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -224,13 +194,6 @@
     .feat-icon { font-size: 1.8rem; margin-bottom: 10px; }
     .feat-card h3 { font-size: .95rem; font-weight: 700; margin-bottom: 6px; }
     .feat-card p { font-size: .82rem; color: var(--muted); }
-
-    #ad-in-content-2 {
-      width: 100%;
-      height: 250px;
-      margin: 24px 0;
-      max-width: 336px;
-    }
 
     .steps { display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px; }
     .step {
@@ -276,17 +239,7 @@
     }
     summary::after { content: '+'; font-size: 1.3rem; color: var(--accent); }
     details[open] summary::after { content: '\2212'; }
-    details p {
-      padding: 0 20px 16px;
-      font-size: .85rem;
-      color: var(--muted);
-    }
-
-    #ad-in-content-3 {
-      width: 100%;
-      height: 90px;
-      margin: 24px 0;
-    }
+    details p { padding: 0 20px 16px; font-size: .85rem; color: var(--muted); }
 
     .final-cta {
       background: var(--surface);
@@ -300,22 +253,13 @@
     .final-cta p { color: var(--muted); font-size: .92rem; margin-bottom: 22px; }
 
     .sidebar { display: flex; flex-direction: column; gap: 20px; }
-    #ad-sidebar-1 { width: 300px; height: 250px; }
-    #ad-sidebar-2 { width: 300px; height: 250px; }
-    #ad-sidebar-3 { width: 300px; height: 600px; }
-
     .sidebar-tip {
       background: var(--surface);
       border: 1px solid #2a2a2a;
       border-radius: var(--radius);
       padding: 18px;
     }
-    .sidebar-tip h3 {
-      font-size: .9rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-      color: var(--accent);
-    }
+    .sidebar-tip h3 { font-size: .9rem; font-weight: 700; margin-bottom: 10px; color: var(--accent); }
     .sidebar-tip ul {
       padding-left: 18px;
       font-size: .82rem;
@@ -325,42 +269,13 @@
       gap: 6px;
     }
 
-    .stats-strip {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      margin-bottom: 32px;
-    }
-    .stat {
-      flex: 1;
-      min-width: 120px;
-      background: var(--surface);
-      border: 1px solid #2a2a2a;
-      border-radius: var(--radius);
-      padding: 18px 14px;
-      text-align: center;
-    }
-    .stat-num {
-      font-size: 1.6rem;
-      font-weight: 800;
-      background: var(--grad);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .stat-label { font-size: .75rem; color: var(--muted); margin-top: 4px; }
+    .ad-block { margin: 24px 0; text-align: center; }
 
     footer {
       background: var(--surface);
       border-top: 1px solid #222;
       padding: 24px 16px;
       text-align: center;
-    }
-    #ad-footer {
-      width: 100%;
-      max-width: 728px;
-      height: 90px;
-      margin: 0 auto 16px;
     }
     .footer-links {
       display: flex;
@@ -375,17 +290,6 @@
   </style>
 </head>
 <body>
-
-  <div class="top-bar">
-    <div class="ad-unit" id="ad-top">
-      <!-- AdSense leaderboard 728x90
-      <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
-           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1234567890"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-      -->
-      [Anuncio — 728×90]
-    </div>
-  </div>
 
   <nav>
     <div class="logo">InstaCheck</div>
@@ -409,13 +313,13 @@
         <p class="cta-sub"><span>✓ Gratis</span> &nbsp;·&nbsp; <span>✓ Seguro</span> &nbsp;·&nbsp; <span>✓ Sin instalar nada</span></p>
       </section>
 
-      <div class="ad-unit" id="ad-in-content-1">
-        <!-- AdSense 728x90
-        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
-             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="0987654321"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-        -->
-        [Anuncio — 728×90]
+      <div class="ad-block">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2003625921425153"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
       <div class="stats-strip">
@@ -435,15 +339,13 @@
         <div class="feat-card"><div class="feat-icon">🔓</div><h3>Sin bloqueos</h3><p>Instagram no bloquea tu cuenta porque no usa APIs externas ni terceros.</p></div>
       </div>
 
-      <div style="display:flex; justify-content:center;">
-        <div class="ad-unit" id="ad-in-content-2">
-          <!-- AdSense 336x280
-          <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px"
-               data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1122334455"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-          -->
-          [Anuncio — 336×280]
-        </div>
+      <div class="ad-block">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2003625921425153"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
       <h2 class="section-title" id="como-funciona">Cómo funciona en <span>3 pasos</span></h2>
@@ -453,13 +355,13 @@
         <div class="step"><div class="step-num">3</div><div><h3>¡Listo! Ve la lista de unfollowers</h3><p>Aparece directamente en tu pantalla la lista de cuentas que te dejaron de seguir. Sin sorteos, sin registro.</p></div></div>
       </div>
 
-      <div class="ad-unit" id="ad-in-content-3">
-        <!-- AdSense 728x90
-        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
-             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="5544332211"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-        -->
-        [Anuncio — 728×90]
+      <div class="ad-block">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2003625921425153"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
       <h2 class="section-title" id="faq">Preguntas <span>frecuentes</span></h2>
@@ -484,13 +386,13 @@
 
     <aside class="sidebar">
 
-      <div class="ad-unit" id="ad-sidebar-1">
-        <!-- AdSense 300x250
-        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
-             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="6677889900"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-        -->
-        [Anuncio — 300×250]
+      <div class="ad-block">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2003625921425153"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
       <div class="sidebar-tip">
@@ -503,35 +405,26 @@
         </ul>
       </div>
 
-      <div class="ad-unit" id="ad-sidebar-2">
-        <!-- AdSense 300x250
-        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
-             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1029384756"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-        -->
-        [Anuncio — 300×250]
-      </div>
-
-      <div class="ad-unit" id="ad-sidebar-3">
-        <!-- AdSense 300x600
-        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px"
-             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="5647382910"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-        -->
-        [Anuncio — 300×600]
+      <div class="ad-block">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2003625921425153"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
 
     </aside>
   </div>
 
   <footer>
-    <div class="ad-unit" id="ad-footer">
-      <!-- AdSense 728x90
-      <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
-           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="9988776655"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script>
-      -->
-      [Anuncio — 728×90]
+    <div class="ad-block">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2003625921425153"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
     <div class="footer-links">
       <a href="#">Inicio</a>
